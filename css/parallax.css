@@ -1,0 +1,57 @@
+/*.content{
+	display: block;
+	padding-top: 100%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#section{
+	background-color: blue;
+	padding: 8rem 15rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed
+}
+
+.photoContainer {
+	position: relative;
+	z-index: 1;
+}
+
+.photoContainer:after{
+	background: rgba(0.0.0.0.5);
+	content: "";
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.wrapper{
+	color: #000;
+	text-shadow: none;
+}
+
+.hero{
+	background-image: url("images/test1.jpg");
+	background-size: cover;
+	height: 100%;
+	max-height: 100%;
+	overflow: auto;
+}
+
+.middel{
+	background-image: url("images/test2.jpg");
+
+}
+
+.lower{
+	background-image: url("images/test3.jpg");
+
+}
+
+.btn{}*/
