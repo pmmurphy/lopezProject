@@ -1,38 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>lopezProject</title>
+	<link rel="stylesheet" href="css/parallax2.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
 </head>
+
+
 <body>
 
-<section class="wrapper">
-	<h1>This is a container</h1>
-</section>
+<!-- hamburger menu -->
 
-<section class="photoContainer middle"></section>
+	<div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+			<div></div>
+			<span></span>
+			<span></span>
+			<span></span>
+     </div>
 
-<section class="wrapper">
-	<h1>This is a container</h1>
-</section>
+     <div class="responsive-menu">
+        <ul>
+           <li>1. Menu</li>
+           <li>2. Menu</li>
+           <li>8. Menu</li>
+        </ul>
+     </div>
+	</div>
 
-<section class="photoContainer lower"></section>
-
-<section class="bottom"></section>
-
-<section class="wrapper">
-	<h1>This is a container</h1>
-</section>
-	
-
-
-
-	
+<!-- parallax  -->
 
 
-	<script src="script/jquery-2.2.2.min.js"></script>
-	<script src="script/jquery.stellar.min.js"></script>
+<div id="wall_1" class="image" data-stellar-background-ratio="0.5"></div>
+<div id="content_1" class="content">		
+		<h1>Simple Parallax</h1>
+		<h3>Let's make a site a little more cooler by adding some Parralax effects with stellar.js</h3>
+		<a class="btn" href="#">Learn More</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+	</div>
 
 
-</body>
-</html>
+<div id="wall_2" class="image" data-stellar-background-ratio="0.5"></div>
+<div id="content_2" class="content">
+	<h2>Here we can add a sub-header</h2>
+	<a class="btn" href="#">Click Here</a>	
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+</div>
+
+
+
+<div id="wall_3" class="image" data-stellar-background-ratio="0.5"></div>
+<div id="content_3" class="content">
+	<h2>Getting lower now</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+</div>
+
+<div id="wall_1" class="image" data-stellar-background-ratio="0.5"></div>
+<div id="content_1" class="content">		
+		<h1>Simple Parallax</h1>
+		<h3>Let's make a site a little more cooler by adding some Parallax effects with stellar.js</h3>
+		<a class="btn" href="#">Learn More</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptates tempora, blanditiis, temporibus doloremque quidem. Beatae nam, reprehenderit fuga? Voluptatibus natus quaerat, et aut libero! Sapiente totam suscipit explicabo alias.</p>
+	</div>
+
+
+
+		<!--  scripts -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="script/jquery.stellar.js"></script>
+<script>
+	$(document).ready(function(){
+		$(window).stellar();
+	}
+		);
+		</script>
