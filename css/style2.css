@@ -1,9 +1,14 @@
 /*Resources and inspirations: http://www.internetkultur.at/simple-hamburger-drop-down-menu-with-css-and-jquery/*/
-/*Jesse Showalter  Parallax in ...*/
-/*rhttps://www.npmjs.com/package/jquery.stellar*/
+/*https://www.npmjs.com/package/jquery.stellar*/
 /*https://discovery.wisc.edu/about*/
 
-/* hambuger menu */
+/*https://speckyboy.com/2013/01/30/more-responsive-navigation-solutions/*/
+
+/*http://www.jqueryscript.net/slider/Lightweight-Responsive-Content-Slider-Plugin-with-jQuery-CSS3-lightslider.html*/
+
+
+/* http://webdesignerwall.com/tutorials/css-responsive-navigation-menu */
+
 
 
 .menu-btn div {
@@ -28,7 +33,7 @@
  z-index: 99;
 }
  
-.responsive-menu{
+.responsive-menu {
  display: none;
 }
  
