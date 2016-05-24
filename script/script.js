@@ -9,6 +9,8 @@
 
 //     $("html").niceScroll({
 //         cursorcolor:"red",
+
+
 //         // cursorcolor:"rgba(30,30,30,.5)",
 //         zindex:999,
 //         scrollspeed:100,
