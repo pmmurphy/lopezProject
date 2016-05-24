@@ -1,4 +1,4 @@
-
+/*resources http://www.jqueryscript.net/demo/Full-width-Responsive-Image-Carousel-Plugin-hslider */
 
 * {
 	margin: 0;
@@ -9,7 +9,7 @@
 
 .logo{
 	position: fixed;
-	left:200px;
+	left: 30px;
 	margin-top: -1px;
 	position: absolute;
 	top:0;
@@ -47,7 +47,7 @@
 
 }
 
- ul {
+ .navlist {
  	margin-top: -18px;
  	font-size: 18px;
  	padding: 40px;
@@ -62,7 +62,8 @@
  	text-decoration: none;
  }
 
-/* parralax setup */
+
+/* parallax setup */
 
 .image {
 	background: #55e6c5;
@@ -92,20 +93,20 @@
  }
 
  #wall_1 {
- 	background: url(../images/test1.jpeg) repeat;
+ 	background: url(../images/test1.jpg) repeat;
  	background-attachment: fixed;
  	height: 250px;
  }
 
  #wall_2 {
- 	 background:url(../images/test2.jpeg) repeat;
+ 	 background:url(../images/test2.jpg) repeat;
  	 margin-right: 0 auto;
  	 height: 300px;
  	 background-attachment: fixed;
  }
 
  #wall_3 {
- 	 background: url(../images/test3.jpeg) repeat;
+ 	 background: url(../images/test3.jpg) repeat;
  	 height: 150px;
  	 background-attachment: fixed;
  }
@@ -115,6 +116,4 @@
  	height: 100px;
  	widows: 100%;
  	color: white;
-
-
  }
