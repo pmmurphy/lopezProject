@@ -95,7 +95,7 @@
  #wall_1 {
  	background: url(../images/test1.jpg) repeat;
  	background-attachment: fixed;
- 	height: 250px;
+ 	height: 400px;
  }
 
  #wall_2 {
@@ -107,7 +107,7 @@
 
  #wall_3 {
  	 background: url(../images/test3.jpg) repeat;
- 	 height: 150px;
+ 	 height: 400px;
  	 background-attachment: fixed;
  }
 
