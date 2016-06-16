@@ -16,64 +16,36 @@
 
 <body>
 
-
-<!-- hamburger menu -->
-
-	<!-- <div class="mobile-nav">
-     <div class="menu-btn" id="menu-btn">
-			<div></div>
-			<span></span>
-			<span></span>
-			<span></span>
-     </div>
-
-     <div class="responsive-menu">
-        <ul>
-           <li>1. Menu</li>
-           <li>2. Menu</li>
-           <li>8. Menu</li>
-        </ul>
-     </div>
-	</div> -->
-
-<!-- fixed logo -->
-
-<!-- <div class="logo">
-	<span id="elogo">edmundo</span><span id="lologo">lopez</span><br>
-	<span id="title">ARCHITECT, PLLC</span>
-</div> -->
-
-<!-- fixed navbar -->
-
-	
 <div class="fixedbar">
 	<nav class="nav">
-			<ul class="navlist">
-				<li class="current"><a href="#">
-					<div class="logo">
-						<span id="elogo">edmundo</span><span id="lologo">lopez</span><br>
-						<span id="title">ARCHITECT, PLLC</span>
-					</div></a></li>
-				<li class="current"><a href="#">Portfolio</a></li>
-				<li><a href="#">Residential</a></li>
-				<li><a href="#">Commerical</a></li>
-				<li><a href="">About</a></li>
-					<div class="socialbar">
-						<li><a href="http://www.linkedin.com" alt="linkedin"><img src="images/linkedin.png"></a></li>
-						<li><a href="http://www.facebook.com" alt="facebook"><img src="images/fb.png"></a></li>
-						<li><a href="https://www.pinterest.com" alt="pinterest"><img src="images/pin.png"></a></li>
-					</div>
-			</ul>	
+		<ul class="navlist">
+			<li class="current"><a href="#">
+				<div class="logo">
+					<span id="elogo">edmundo</span><span id="lologo">lopez</span><br>
+					<span id="title">ARCHITECT, PLLC</span>
+				</div></a>
+			</li>
+				<div class="nav2">
+					<ul>
+						<li class="current1"><a href="#">Portfolio</a></li>
+						<li><a href="#">Residential</a></li>
+						<li><a href="#">Commerical</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</div>
+				<div class="socialbar">
+					<li><a href="http://www.linkedin.com" alt="linkedin"><img src="images/linkedin.png"></a></li>
+					<li><a href="http://www.facebook.com" alt="facebook"><img src="images/fb.png"></a></li>
+					<li><a href="https://www.pinterest.com" alt="pinterest"><img src="images/pin.png"></a></li>
+				</div>
+		</ul>	
 	</nav>
 </div>
 
 <h1>PROJECT HEADER</h1>
 
-    
-
 
 <!--  jquery carousel -->
-
 
 
 <div class="hsldr-container">
@@ -167,13 +139,18 @@
 	</div>
 
 
-		<!--  scripts -->
+<!--  scripts -->
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
 <script src="script/jquery.hslider.js"></script>
 <script src="script/jquery.stellar.js"></script>
+
+
+<!-- carousel slider -->
+
 
 <script type="text/javascript">       
 	$( document ).ready(function() { 
@@ -183,18 +160,17 @@
 		  auto: true,
 		  delay: 4000
 		});
-
-
 	});		
+</script>
 
-</script> 
+ <!--  stellar -->
 
 <script>
 	$(document).ready(function(){
 		$(window).stellar();
 	}
 		);
-		</script>
+</script>
 
 </html>
 </body>
