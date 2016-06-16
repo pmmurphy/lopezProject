@@ -28,6 +28,7 @@
 }
 #title {
 	font-size: 18px;
+
 }
 
 .fixedbar{
@@ -60,6 +61,7 @@
 	text-align: center;
 
 }
+
 
  a{
  	color: #838383;
@@ -120,4 +122,9 @@
  	height: 100px;
  	widows: 100%;
  	color: white;
+ }
+
+ .flexslider .slides img{
+ 	width: 100%;
+ 	display: block;
  }
