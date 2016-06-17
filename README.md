@@ -26,3 +26,5 @@ Inspiration and Resources
 * http://webdesignerwall.com/tutorials/css-responsive-navigation-menu 
 
 * https://images.unsplash.com/
+
+* http://fotorama.io/customize/thumbnails/
