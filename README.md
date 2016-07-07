@@ -23,8 +23,11 @@ Inspiration and Resources
 
 * https://speckyboy.com/2013/01/30/more-responsive-navigation-solutions/
 
-* http://webdesignerwall.com/tutorials/css-responsive-navigation-menu 
+
 
 * https://images.unsplash.com/
 
 * http://fotorama.io/customize/thumbnails/
+
+* Copyright (c) 2016 by Gian (http://codepen.io/gianmichelle/pen/xpwEh)
+
