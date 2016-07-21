@@ -24,7 +24,6 @@ Inspiration and Resources
 * https://speckyboy.com/2013/01/30/more-responsive-navigation-solutions/
 
 
-
 * https://images.unsplash.com/
 
 * http://fotorama.io/customize/thumbnails/
