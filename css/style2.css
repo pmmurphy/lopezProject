@@ -1,7 +1,7 @@
 
 /* hamburger menu */
 
-.fixedbar .nav2 ul {
+/*.fixedbar .nav2 ul {
   padding: 0;
   margin: 0;
 }
@@ -28,9 +28,9 @@
 }
 .fixedbar .menuIcon a img {
   vertical-align: middle;
-}
+}*/
 
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {
   .fixedbar .nav2 {
     max-height: 0;
     overflow: hidden;
@@ -65,4 +65,4 @@
   .fixedbar .menuIcon {
     display: inline-block;
   }
-}
+}*/
