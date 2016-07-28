@@ -1,22 +1,28 @@
 /*resources http://www.jqueryscript.net/demo/Full-width-Responsive-Image-Carousel-Plugin-hslider */
 
-* {
+*, *:before, *:after {
 	margin: 0;
 	padding: 0;
 }
 
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 				/* logo & fixed navbar */
 
-.logo{
+.logo {
 	position: fixed;
 	left: 30px;
 	margin-top: -1px;
-	position: absolute;
+	/*position: absolute;*/
 	top:0;
 	z-index: 99;
 }
 
-#elogo{
+#elogo {
 	color:#008D5B;
 	font-size: 30px;
 }
@@ -29,7 +35,7 @@
 	font-size: 18px;
 }
 
-.fixedbar{
+.fixedbar {
 	background-color: white;
 	position: fixed;
 	width: 100%;
@@ -40,11 +46,11 @@
 	/*margin-top: 30px;*/
 }
 
-.socialbar{
+.socialbar {
 	float: right;
 }
 
-.nav li{
+.nav li {
 	display: inline;
 	padding: 20px;
 
@@ -76,6 +82,7 @@
 .nav2 ul {
 	margin: 0;
 	padding: 0;
+
 }
 
 .nav2 li {
@@ -83,7 +90,6 @@
 	/*width: 20%;*/
 	margin: 0 5px 10px 0;
 	padding: 0;
-	list-style: none;
 	/*display: inline-block;*/
 }
 
@@ -91,7 +97,7 @@
 	border-right: none;
 }
 
-.nav2 a {
+.nav2 ul a {
 	padding: 3px 12px;
 	text-decoration: none;
 	color: #999;
@@ -167,7 +173,7 @@
 }
 
  .me {
-  width: 1000px;
+  width: 115%;
 }
 
 .me p,
@@ -270,6 +276,9 @@
  				/* media query for responsive navbar */
 
  @media only screen and (max-width: 480px) {
+
+
+
  	.hamburger {
  		cursor: pointer;
  		padding: 15px;
@@ -277,7 +286,7 @@
  	}
 
  	.line {
- 		border-bottom: 4px solid #BBB;
+ 		border-bottom: 4px solid red;
  		width: 35px;
  		margin-bottom: 6px;
  	}
@@ -288,19 +297,22 @@
  
  				/* style here */
 
-	.nav2 li {
-		width: 100%;
+	.nav2 ul{
+		background-color: black;
+	}
+
+	.nav2 ul li a {
+		color: red;
+		margin: 35px	
 	}
 
 	.menu {
-		display: none;
 		height: 0;
 		overflow: hidden;
-		transition: height 0.3% linear;
 	}
 
 	.slide-down {
-		height: 295px;
+		height: 100px;
 	}
 }
 
