@@ -7,7 +7,6 @@
 	<title>Edmundo Lopez</title>
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/style2.css">
 	<link rel="stylesheet" type="text/css" href="css/parallax2.css">
 	<style>
     body { background-color:#fafafa;}
@@ -17,35 +16,32 @@
 
 <body>
 
-<div class="fixedbar">
-	<nav class="nav">
-		<ul class="navlist">
-			<li class="current"><a href="#">
-				<div class="logo">
-					<span id="elogo">edmundo</span><span id="lologo">lopez</span><br>
-					<span id="title">ARCHITECT, PLLC</span>
-				</div></a>
-			</li>
-				<div href="#" class="hamburger">
-					<div class="line"></div>
-					<div class="line"></div>
-					<div class="line"></div>
-				<!-- </div> -->
-				<div class="nav2">
-					<ul class="clearfix menu">
-						<li><a href="residential.html">Residential</a></li>
-						<li><a href="#">Commerical</a></li>
-						<li><a href="#">About</a></li>
-					</ul>
-				</div>
-		</ul>	
-	</nav>
-</div>
+					<!-- new navbar with hamburger -->
+<header>
+  <div class="logo">
+	  <span id="elogo">Edmundo</span><span id="lologo">Lopez</span><br>
+	  <span id="title">Architect, PLLC</span>
+  </div>
+   <nav>
+   	<div href="#" class="hamburger">
+       <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+  	</div>
+      <ul class="navul clearfix menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Commercial</a></li>
+        <li><a href="#">Residential</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+   </nav>
+ </header>
 
 
 <h1></h1>
 
-<!--  jquery carousel -->
+					<!--  jquery carousel -->
 
 
 <div class="hsldr-container">
@@ -97,7 +93,7 @@
 
 
 
-<!-- parallax  -->
+					<!-- parallax  -->
 
 
 <div id="wall_1" class="image" data-stellar-background-ratio="0.5"></div>
@@ -157,18 +153,18 @@
 
 
 
-<!--  scripts -->
+					<!--  scripts -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+ <!-- src="http://code.jquery.com/jquery-2.2.2.min.js"> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
 <script src="script/jquery.hslider.js"></script>
 <script src="script/jquery.stellar.js"></script>
 <script src="script/script.js"></script>
 
 
-<!-- carousel slider -->
+					<!-- carousel slider -->
 
 
 <script type="text/javascript">       
@@ -182,7 +178,7 @@
 	});		
 </script>
 
- <!--  stellar -->
+ 					<!--  stellar -->
 
 <script>
 	$(document).ready(function(){

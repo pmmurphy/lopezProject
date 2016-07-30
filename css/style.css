@@ -68,6 +68,7 @@ html, body {
 	width: auto;
 	height: 80vh;
 	max-height: 600px;
+	z-index: 0;
 }
 
 .hsldr-container figure, .hsldr-container li {

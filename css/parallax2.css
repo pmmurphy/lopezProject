@@ -3,100 +3,20 @@
 *, *:before, *:after {
 	margin: 0;
 	padding: 0;
-}
-
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+	box-sizing: border-box;
 }
 
 				/* logo & fixed navbar */
 
-.logo {
-	position: fixed;
-	left: 30px;
-	margin-top: -1px;
-	/*position: absolute;*/
-	top:0;
-	z-index: 99;
-}
-
-#elogo {
-	color:#008D5B;
-	font-size: 30px;
-}
-
-#lologo{
-	color:#3B444B;
-	font-size: 30px;	
-}
-#title {
-	font-size: 18px;
-}
-
-.fixedbar {
-	background-color: white;
-	position: fixed;
-	width: 100%;
-	height: 57px;
-	top: 0;
-	left: 0;
-	/*z-index: 1;*/
-	/*margin-top: 30px;*/
-}
-
 .socialbar {
 	float: right;
-}
-
-.nav li {
-	display: inline;
-	padding: 20px;
-
-}
-
- .navlist {
- 	margin-top: -18px;
- 	font-size: 18px;
- 	padding: 40px;
-	text-decoration: none;
-	list-style-type:none;
-	text-align: center;
-
 }
 
  a{
  	color: #838383;
  	text-decoration: none;
  }
-
- 				/* nav 2*/
-
-.nav2 {
-	position: relative;
-	display: inline-block;
-	margin-left: 161px;
-}
-
-.nav2 ul {
-	margin: 0;
-	padding: 0;
-
-}
-
-.nav2 li {
-	float: left;
-	/*width: 20%;*/
-	margin: 0 5px 10px 0;
-	padding: 0;
-	/*display: inline-block;*/
-}
-
-.nav2 li:last-child{
-	border-right: none;
-}
-
+ 				
 .nav2 ul a {
 	padding: 3px 12px;
 	text-decoration: none;
@@ -112,10 +32,72 @@
 	background: #999;
 	color: #fff;
 	border-radius: 5px;
+}*/
+
+
+					/* new navbar with hamburger 7/29*/
+
+
+.logo{
+  margin-left: 20px;
+  margin-top: 30px;
 }
 
+#elogo{
+  /*color: #008D5B;*/
+  color: #008D5B;
+  font-size: 20px;
+}
 
+#lologo{
+  color: #3B444B;
+  font-size: 20px;
 
+}
+
+#title{
+  font-size: 18px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navul {
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.navul a {
+  display: block;
+  padding: 20px;
+  padding-right: 0 !important; /* important overrides media queries */
+  font-size: 18px;
+  text-align: center;
+  color: #aaa;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navul a:hover {
+	color: #000;
+}
+
+nav li {
+  float: left;
+  width: 20%;
+}
+
+nav li:last-child {
+  border-right: none;
+}													
+
+				/* end of new nav 7/28 */
+				
+				
 				/* parallax setup */
 
 .image {
@@ -278,7 +260,6 @@
  @media only screen and (max-width: 480px) {
 
 
-
  	.hamburger {
  		cursor: pointer;
  		padding: 15px;
@@ -294,25 +275,30 @@
  	.line:last-child {
  		margin-bottom: 0;
  	}
+
+ 	nav {
+ 		 background-color: #3B444B;	 
+ 	}
+
+ 	nav li {
+ 		width: 100%;
+ 	}
+
+ 	.navul a:hover {
+	color: #000;
+  background: #eee;
+}
  
  				/* style here */
 
-	.nav2 ul{
-		background-color: black;
-	}
-
-	.nav2 ul li a {
-		color: red;
-		margin: 35px	
-	}
 
 	.menu {
 		height: 0;
 		overflow: hidden;
+		transition: height 0.3s;
 	}
-
-	.slide-down {
-		height: 100px;
+	.open {
+		height: 295px;
 	}
 }
 
