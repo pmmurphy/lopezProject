@@ -133,6 +133,15 @@
  	margin: 30px 60px;
  }
 
+ #info {
+	display: none;
+	color: red;
+	font-family: Copperplate;
+	font-size: 18px;
+	line-height: 25px;
+
+ }
+
  #wall_1 {
  	background: url(../images/test1.jpg) repeat;
  	background-attachment: fixed;
