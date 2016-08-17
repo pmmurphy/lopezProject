@@ -23,10 +23,11 @@ Inspiration and Resources
 
 * https://speckyboy.com/2013/01/30/more-responsive-navigation-solutions/
 
-
 * https://images.unsplash.com/
 
 * http://fotorama.io/customize/thumbnails/
 
 * Copyright (c) 2016 by Gian (http://codepen.io/gianmichelle/pen/xpwEh)
+
+* jQuery lightbox plugin
 
