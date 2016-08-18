@@ -3,7 +3,6 @@
 *, *:before, *:after {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 				/* logo & fixed navbar */
@@ -32,26 +31,30 @@
 	background: #999;
 	color: #fff;
 	border-radius: 5px;
-}*/
+}
 
 
 					/* new navbar with hamburger 7/29*/
 
 
 .logo{
-  margin-left: 20px;
-  margin-top: 30px;
+  
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+
 }
 
 #elogo{
-  /*color: #008D5B;*/
   color: #008D5B;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
 }
 
 #lologo{
   color: #3B444B;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
 
 }
 
@@ -68,7 +71,8 @@
 .navul {
   list-style: none;
   max-width: 800px;
-  margin: 0 auto;
+  margin: -6px auto;
+
 }
 
 .navul a {
@@ -164,15 +168,16 @@ nav li:last-child {
 }
 
  .me {
-  width: 115%;
+  width: 100%;
 }
 
-.me p,
-.me h1 {
+
+.me  {
 	margin-top: 30px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 3px;
   text-align: center;
+  position: absolute;
 }
 
 .me p {
