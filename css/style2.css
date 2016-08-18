@@ -167,7 +167,8 @@ a:hover { text-decoration: underline; }
 #thumbnails { display: block; margin-bottom: 10px; }
 #thumbnails ul li { float: left; margin-right: 26px; margin-bottom: 12px; }
 
-/** clearfix **/
+/** clearfix - used in float layouts where elements are floated to be stacked horizontally **/
+
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 .clearfix { display: inline-block; }
  
