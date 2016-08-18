@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Residential</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css"> 
+  <link rel="stylesheet" type="text/css" href="css/parallax2.css">
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css">
+  <script type="text/javascript" src="script/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="script/jquery.lightbox-0.5.min.js"></script>
+</head>
+
+
+<!-- style2 and parralla2 conflicts -->
+
+<body>
+
+
+<!-- new navbar with hamburger -->
+<header>
+  <div class="logo">
+    <span id="elogo">Edmundo</span><span id="lologo">Lopez</span><br>
+    <span id="title">Architect, PLLC</span>
+  </div>
+   <nav>
+    <div href="#" class="hamburger">
+       <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+      <ul class="navul clearfix menu">
+        <li><a href="about.html">Home</a></li>
+        <li><a href="commercial.html">Commercial</a></li>
+        <li><a href="residential.html">Residential</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </nav>
+ </header>
+
+  <div id="w">
+    <div id="content">
+      <h1>Images Lightbox Gallery</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga esse laboriosam molestias eius iusto illum voluptatibus nesciunt id natus nihil placeat in provident, officia alias quod reprehenderit ipsa hic nostrum.</p>
+
+
+      <!-- research https://designshack.net/articles/javascript/create-a-simple-jquery-image-lightbox-gallery/ -->
+      
+      <div id="thumbnails">
+        <ul class="clearfix">
+          <!-- source: http://dribbble.com/shots/1115721-Turntable -->
+          <li><a href="images/photos/img1.jpg" title="Turntable by Jens Kappelmann"><img src="images/photos/img1-thumbnail.jpg" alt="turntable"></a></li>
+          
+          <!-- source: http://dribbble.com/shots/1115776-DIY-Robot-Kit -->
+          <li><a href="images/photos/img1.jpg" title="DIY Robot by Jory Raphael"><img src="images/photos/img1-thumbnail.jpg" alt="DIY Robot Kit"></a></li>
+          
+          <!-- source: http://dribbble.com/shots/1115794-Todly -->
+          <li><a href="images/photos/img1.jpg" title="Todly by Scott Wetterschneider"><img src="images/photos/img1-thumbnail.jpg" alt="Todly"></a></li>
+          
+          <!-- source: http://dribbble.com/shots/1115299-Legend-of-Zelda-Tea-Party -->
+          <li><a href="images/photos/img1.jpg" title="LoZ Tea Party by Joseph Le"><img src="images/photos/img1-thumbnail.jpg" alt="legend of zelda tea party"></a></li>
+          
+          <!-- source: http://dribbble.com/shots/1116121-klaxon-Icon -->
+          <li><a href="images/photos/img1.jpg" title="Klaxon Icon by John Khester"><img src="images/photos/img1-thumbnail.jpg" alt="airhorn icon"></a></li>
+          
+          <!-- source: http://dribbble.com/shots/1116241-Flat-Coffee -->
+          <li><a href="images/photos/img1.jpg" title="Flat Coffee by Baglan Dosmagambetov"><img src="images/photos/img1-thumbnail.jpg" alt="flat coffee"></a></li>
+          
+          <!-- source: http://dribbble.com/shots/1116392-Creative-player-Retina -->
+          <li><a href="images/photos/img1.jpg" title="iPad Music Player by Angel Bartolli"><img src="images/photos/img1-thumbnail.jpg" alt="player ui"></a></li>
+          
+          <!-- source: http://dribbble.com/shots/1115350-Extreme-Fish-Bowl -->
+          <li><a href="images/photos/img1.jpg" title="Extreme Fish Bowl by Brian Franco"><img src="images/photos/img1-thumbnail.jpg" alt="extreme skateboarding fish bowl"></a></li>
+        </ul>
+      </div>
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+  
+
+
+
+
+
+
+<!--  scripts -->
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+ <!-- src="http://code.jquery.com/jquery-2.2.2.min.js"> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script> -->
+<!-- <script src="script/jquery.hslider.js"></script>
+<script src="script/jquery.stellar.js"></script> -->
+<script src="script/script.js"></script>
+<!-- <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script> -->
+
+<script type="text/javascript">
+  $(function() {
+      $('#thumbnails a').lightBox();
+  });
+  </script>
+
+
+
+
+</body>
+</html>
