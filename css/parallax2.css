@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 /*resources http://www.jqueryscript.net/demo/Full-width-Responsive-Image-Carousel-Plugin-hslider */
 
 *, *:before, *:after {
@@ -38,23 +42,19 @@
 
 
 .logo{
-  
+  margin-left: 50px;
   margin-top: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-
 }
 
 #elogo{
   color: #008D5B;
   font-size: 25px;
-  text-align: center;
+  
 }
 
 #lologo{
   color: #3B444B;
   font-size: 25px;
-  text-align: center;
 
 }
 
@@ -80,10 +80,10 @@
   padding: 20px;
   padding-right: 0 !important; /* important overrides media queries */
   font-size: 18px;
-  text-align: center;
   color: #aaa;
   cursor: pointer;
   text-decoration: none;
+
 }
 
 .navul a:hover {
@@ -316,7 +316,30 @@ nav li:last-child {
 	}
 }
 
-	
 
-/*Residental Page
+/*<!--Residential page -->*/
+
+.container{
+  margin-top: 60px;
+}
+
+#heading h1{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #3f4045;
+}
+
+#heading .accent{
+  color: #008D5B;
+}
+
+.navbar{
+  text-decoration: none;
+
+}
+
+
+
+
+
 
