@@ -38,12 +38,23 @@ body{
 }
 
 
+
+/* bs navbar custom*/
+
+.navbar {
+  background-color: white;
+}
+.navbar-nav>li>a{
+  background-color: white;
+}
+
+
 					/* new navbar with hamburger 7/29*/
 
 
 .logo{
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 #elogo{
