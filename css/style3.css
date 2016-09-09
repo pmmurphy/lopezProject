@@ -76,6 +76,7 @@ img { border: 0; max-width: 100%; }
   transition: height 0.5s linear;
 }
 #topbar a {
+  width: 100%;
   color: #fff;
   font-size:1.3em;
   line-height: 1.25em;
@@ -148,7 +149,7 @@ a:hover { text-decoration: underline; }
 /** page structure **/
 #w {
   display: block;
-  width: 750px;
+  width: 59%;
   margin: 0 auto;
   padding-top: 30px;
 }
@@ -164,13 +165,20 @@ a:hover { text-decoration: underline; }
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
-#thumbnails { display: block; margin-bottom: 10px; }
-#thumbnails ul li { float: left; margin-right: 26px; margin-bottom: 12px; }
+#thumbnails { 
+  display: block; 
+  margin-bottom: 10px; 
+}
 
-/** clearfix - used in float layouts where elements are floated to be stacked horizontally **/
+#thumbnails ul li { 
+  float: left; 
+  margin-right: 26px; 
+  margin-bottom: 12px; 
+}
 
+/** clearfix **/
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-.clearfix { display: inline-block; }
+/*.clearfix { display: inline-block; }*/
  
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }

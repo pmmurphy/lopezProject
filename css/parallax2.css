@@ -78,7 +78,7 @@ body{
 .navul a {
   display: block;
   padding: 20px;
-  padding-right: 0 !important; /* important overrides media queries */
+  /*padding-right: 0 !important;  important overrides media queries */
   font-size: 18px;
   color: #aaa;
   cursor: pointer;
@@ -162,40 +162,43 @@ nav li:last-child {
  				/* footer */
 
 .footer{
+  margin-top: 50px;
 	width: 100%;
   position: relative;
   bottom: 0px;
 }
 
- .me {
+ /*.me {
   width: 100%;
 }
-
+*/
 
 .me  {
-	margin-top: 30px;
-  /*text-transform: uppercase;*/
+  margin-top: 150px;
+  text-transform: uppercase;
   letter-spacing: 3px;
-  text-align: center;
-  position: absolute;
 }
 
+
 .me p {
+  text-align: center;
   font-weight: 200;
 }
 .me span {
   font-weight: bold;
+  text-align: center;
 }
 
-.bottom span {
+/*.bottom span {
   font-weight: bold;
-}
+}*/
 
 
 				/* social bar bottom */
 
 .socialbarbottom {
   position: absolute;
+  margin-top: 150px;
 }
 
 .socialbarbottom ul {
@@ -338,8 +341,11 @@ nav li:last-child {
 
 }
 
+/*Texas page*/
 
-
-
+.render{
+  padding-top: 20px;
+  margin-top: 20px;
+}
 
 
