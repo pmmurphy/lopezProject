@@ -29,5 +29,5 @@ Inspiration and Resources
 
 * Copyright (c) 2016 by Gian (http://codepen.io/gianmichelle/pen/xpwEh)
 
-* jQuery lightbox plugin
+* http://www.w3schools.com/
 
