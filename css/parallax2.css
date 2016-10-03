@@ -4,46 +4,19 @@ body{
 
 /*resources http://www.jqueryscript.net/demo/Full-width-Responsive-Image-Carousel-Plugin-hslider */
 
-*, *:before, *:after {
+/**, *:before, *:after {
 	margin: 0;
 	padding: 0;
-}
-
-				/* logo & fixed navbar */
-
-.socialbar {
-	float: right;
-}
-
- a{
- 	color: #838383;
- 	text-decoration: none;
- }
- 				
-.nav2 ul a {
-	padding: 3px 12px;
-	text-decoration: none;
-	color: #999;
-	line-height: 100%;
-}
-
-.nav2 a:hover {
-	color: #000;
-}
-
-.nav2.current2 a {
-	background: #999;
-	color: #fff;
-	border-radius: 5px;
-}
+}*/
 
 
-					/* new navbar with hamburger 7/29*/
+
+					/* logo 10/02 */
 
 
 .logo{
   margin-left: 50px;
-  margin-top: 0px;
+  margin-top: -9px;
 }
 
 #elogo{
@@ -53,7 +26,8 @@ body{
 }
 
 #lologo{
-  color: #3B444B;
+  color: #9E9E9E;
+  /*color: #3B444B;*/
   font-size: 25px;
 
 }
@@ -68,38 +42,9 @@ body{
   clear: both;
 }
 
-.navul {
-  list-style: none;
-  max-width: 800px;
-  margin: -6px auto;
 
-}
 
-.navul a {
-  display: block;
-  padding: 20px;
-  /*padding-right: 0 !important;  important overrides media queries */
-  font-size: 18px;
-  color: #aaa;
-  cursor: pointer;
-  text-decoration: none;
-
-}
-
-.navul a:hover {
-	color: #000;
-}
-
-nav li {
-  float: left;
-  width: 20%;
-}
-
-nav li:last-child {
-  border-right: none;
-}													
-
-				/* end of new nav 7/28 */
+				/* end of logo */
 				
 				
 				/* parallax setup */
@@ -168,11 +113,6 @@ nav li:last-child {
   bottom: 0px;
 }
 
- /*.me {
-  width: 100%;
-}
-*/
-
 .me  {
   margin-top: 150px;
   text-transform: uppercase;
@@ -189,9 +129,6 @@ nav li:last-child {
   text-align: center;
 }
 
-/*.bottom span {
-  font-weight: bold;
-}*/
 
 
 				/* social bar bottom */
@@ -276,14 +213,7 @@ nav li:last-child {
 
  @media only screen and (max-width: 480px) {
 
-
- 	.hamburger {
- 		cursor: pointer;
- 		padding: 15px;
- 		display: block;
- 	}
-
- 	.line {
+ 	.icon-bar {
  		border-bottom: 4px solid red;
  		width: 35px;
  		margin-bottom: 6px;
@@ -308,7 +238,6 @@ nav li:last-child {
  
  				/* style here */
 
-
 	.menu {
 		height: 0;
 		overflow: hidden;
@@ -327,6 +256,7 @@ nav li:last-child {
 }
 
 #heading h1{
+  margin-top: 80px;
   font-family: 'Lato', sans-serif;
   text-align: center;
   color: #3f4045;
@@ -338,7 +268,14 @@ nav li:last-child {
 
 .navbar{
   text-decoration: none;
+}
+.navbar-brand{
 
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
 }
 
 /*Texas page*/

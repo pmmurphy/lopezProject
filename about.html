@@ -6,19 +6,53 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Edmundo Lopez</title>
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" media="all" href="css/style3.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/parallax2.css">
 
+				 <!--  link the bootstrap CDN css before custom css -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/parallax2.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.lightbox-0.5.css">
 	<script type="text/javascript" src="script/jquery.lightbox-0.5.min.js"></script>
-
 </head>
 
 <body>
 
 					<!-- new navbar with hamburger -->
-<header>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="#"><div class="logo">
+        <span id="elogo">Edmundo</span><span id="lologo">Lopez</span><br>
+        <span id="title">Architect, PLLC</span>
+      </div></a>
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="about.html">Home</a></li>
+        <li><a href="#">Commercial</a></li>
+        <li class="dropdown">
+           <a href="residential.html" class="dropdown-toggle" data-toggle="dropdown">Residential<b class="caret"></b></a> 
+           <ul class="dropdown-menu">
+            <li><a href="#">New Jersey</a></li>
+            <li><a href="#">New York</a></li>
+            <li><a href="#">Texas</a></li>
+           </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- <header>
   <div class="logo">
 	  <span id="elogo">Edmundo</span><span id="lologo">Lopez</span>
 	  <br>
@@ -41,7 +75,7 @@
  </header>
 
 
-<h1></h1>
+<h1></h1> -->
 
 					<!--  jquery carousel -->
 
@@ -158,6 +192,7 @@
 					<!--  scripts -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
 <script src="script/jquery.hslider.js"></script>
 <script src="script/jquery.stellar.js"></script>
