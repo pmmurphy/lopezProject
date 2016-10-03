@@ -2,14 +2,6 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
-/*resources http://www.jqueryscript.net/demo/Full-width-Responsive-Image-Carousel-Plugin-hslider */
-
-/**, *:before, *:after {
-	margin: 0;
-	padding: 0;
-}*/
-
-
 
 					/* logo 10/02 */
 
@@ -87,55 +79,44 @@ body{
 
  #wall_1 {
  	background: url(../images/test1.jpg) repeat;
- 	background-attachment: fixed;
- 	height: 400px;
+ 	height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
  }
 
  #wall_2 {
- 	 background:url(../images/test2.jpg) repeat;
- 	 margin-right: 0 auto;
- 	 height: 300px;
+ 	 background:url(../images/test9.jpg) repeat;
+ 	 height: 800px;
+   background-size: cover;
  	 background-attachment: fixed;
  }
 
  #wall_3 {
  	 background: url(../images/test3.jpg) repeat;
- 	 height: 400px;
+ 	 height: 500px;
+   background-size: cover;
  	 background-attachment: fixed;
  }
 
- 				/* footer */
+ #wall_4 {
+   background: url(../images/test6.jpg) repeat;
+   height: 600px;
+   background-attachment: fixed;
+ }
 
-.footer{
-  margin-top: 50px;
-	width: 100%;
-  position: relative;
-  bottom: 0px;
-}
+ #wall_5 {
+   background: url(../images/test2.jpg) repeat;
+   height: 600px;
+   background-size: cover;
+   background-attachment: fixed;
+ }
 
-.me  {
-  margin-top: 150px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
+ 				/* footer  with socialbar*/
 
-
-.me p {
-  text-align: center;
-  font-weight: 200;
-}
-.me span {
-  font-weight: bold;
-  text-align: center;
-}
-
-
-
-				/* social bar bottom */
 
 .socialbarbottom {
-  position: absolute;
-  margin-top: 150px;
+  position: fixed;
+  bottom: 0px;
 }
 
 .socialbarbottom ul {
@@ -150,7 +131,7 @@ body{
   display: block;
   margin: 5px;
   background: rgba(0, 0, 0, 0.36);
-  width: 300px;
+  width: 231px;
   text-align: right;
   padding: 10px;
   -webkit-border-radius: 0 30px 30px 0;
@@ -171,6 +152,7 @@ body{
   background: rgba(255, 255, 255, 0.4);
 }
 .socialbarbottom ul li:hover a {
+  text-decoration: none;
   color: #000;
 }
 .socialbarbottom ul li:hover i {
@@ -205,8 +187,31 @@ body{
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
- 					/* end social bar bottom*/
- 					/* end footer */
+
+/* contact info at bottom */
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.me  {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+
+.me p, .me h1 {
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.me span {
+  font-weight: bold;
+}
+
+				
+          /* end footer test*/
 
 
  				/* media query for responsive navbar */
@@ -235,7 +240,8 @@ body{
 	color: #000;
   background: #eee;
 }
- 
+
+
  				/* style here */
 
 	.menu {
@@ -247,6 +253,7 @@ body{
 		height: 295px;
 	}
 }
+
 
 
 /*<!--Residential page -->*/
@@ -268,9 +275,6 @@ body{
 
 .navbar{
   text-decoration: none;
-}
-.navbar-brand{
-
 }
 
 .navbar-inverse {
