@@ -5,22 +5,12 @@
   <title>Southampton, NY</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
-   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-  
+        <!--  link the bootstrap CDN css before custom css -->
 
-  <!--  link the bootstrap CDN css files here -->
-
-   <!-- <!- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- <!-Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<link rel="stylesheet" type="text/css" href="css/parallax2.css">
-
-
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/parallax2.css">
 </head>
 
 
@@ -35,29 +25,33 @@
   <span id="title">Architect, PLLC</span>
 </div> -->
 
-<nav class="navbar navbar">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
+     <a class="navbar-brand" href="#"><div class="logo">
+        <span id="elogo">Edmundo</span><span id="lologo">Lopez</span><br>
+        <span id="title">Architect, PLLC</span>
+      </div></a>
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#"><div class="logo">
-  <span id="elogo">Edmundo</span><span id="lologo">Lopez</span><br>
-  <span id="title">Architect, PLLC</span>
-</div></a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="about.html">Home</a></li>
         <li><a href="#">Commercial</a></li>
-        <li><a href="#">Residential</a></li> 
+        <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Residential<b class="caret"></b></a> 
+           <ul class="dropdown-menu">
+            <li><a href="#">New Jersey</a></li>
+            <li><a href="#">New York</a></li>
+            <li><a href="#">Texas</a></li>
+           </ul>
+        </li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li> 
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -251,10 +245,19 @@
     <div class="col-md-3">
       <img class="img-responsive" src="images/HamptonAltar1.JPG">
     </div>
- </div>                                                 
-  <p> hey </p>
-  <p> test </p>
-
+ </div></br>                                                 
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
 
