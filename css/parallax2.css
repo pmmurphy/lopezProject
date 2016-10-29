@@ -52,20 +52,19 @@ body{
 	background: white;
 	height: 350px;
 	width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 	z-index: 2;
 }
- .content h1 {	
+ .content h1 {
+ 
  	color: #464646;
- 	font-size: 48px;
  	font-weight: 600;
- 	margin: 30px 60px;
  }
 
  .content p {
  	color: #343434;
- 	font-size: 20px;
  	font-weight: 300;
- 	margin: 30px 60px;
  }
 
  #info {
@@ -288,5 +287,3 @@ a {
   padding-top: 20px;
   margin-top: 20px;
 }
-
-

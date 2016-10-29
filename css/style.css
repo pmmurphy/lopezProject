@@ -1,7 +1,5 @@
 
 html, body {
-  /*height: 100%;*/
- 	/*font-family: 'Helvetica Neue', Arial;*/
   font-family: 'Lato', sans-serif;
   font-size: 100%;
 }
@@ -181,7 +179,7 @@ html, body {
 	-moz-transform: translateY(-50%);
 	width: 15px;
 	height: 30px;
-	background-color: rgba(0,0,0,0.4);
+/*	background-color: rgba(0,0,0,0.4);*/
 	color: #fff;
 	transition: background-color 0.3s ease-in-out;
 	padding: 15px 20px;
@@ -255,5 +253,5 @@ html, body {
 
 .hsldr-next:hover,
 .hsldr-prev:hover {
-	background-color: rgba(0,0,0,0.6);
+	/*background-color: rgba(0,0,0,0.6);*/
 }
